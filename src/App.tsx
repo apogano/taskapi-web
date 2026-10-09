@@ -1,6 +1,7 @@
 import { useAuth } from "./auth/AuthContext";
 import { Button } from "./components/ui";
 import { LoginPage } from "./pages/LoginPage";
+import { TasksPage } from "./tasks/TasksPage";
 
 export default function App() {
   const { state, logout } = useAuth();
@@ -28,7 +29,7 @@ export default function App() {
         </div>
       </header>
       <main className="mx-auto max-w-3xl px-4 py-8">
-        {/* Tasks go here */}
+        <TasksPage />
       </main>
     </div>
   );

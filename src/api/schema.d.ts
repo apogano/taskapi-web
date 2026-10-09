@@ -419,11 +419,11 @@ export interface components {
         /** TaskUpdate */
         TaskUpdate: {
             /** Title */
-            title?: string | null;
+            title?: string;
             /** Description */
             description?: string | null;
             /** Done */
-            done?: boolean | null;
+            done?: boolean;
         };
         /** TokenPair */
         TokenPair: {
